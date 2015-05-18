@@ -1,0 +1,42 @@
+{
+  "name": "InstaSynchP-Thumbnails",
+  "version": "1.0.0",
+  "description": "Adds thumbnails to the playlist",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zod-/InstaSynchP-Thumbnails.git"
+  },
+  "author": {
+    "name": "Julian Hangstörfer",
+    "email": "jhangstoerfer@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zod-/InstaSynchP-Thumbnails/issues"
+  },
+  "homepage": "https://github.com/Zod-/InstaSynchP-Thumbnails",
+  "userscript": {
+    "namespace": "InstaSynchP",
+    "author": {
+      "name": "Zod-"
+    },
+    "require": {
+      "greasyfork": [{
+        "id": "5647-instasynchp-library",
+        "version": "51269"
+      }]
+    },
+    "other": {
+      "include": [
+        "*://instasync.com/r/*",
+        "*://*.instasync.com/r/*"
+      ],
+      "grant": "none",
+      "run-at": "document-start"
+    }
+  },
+}
