@@ -1,0 +1,21 @@
+.room-container .room-component-row .video-controls .tab-content #tabs_playlist_history .playlist li .title,
+.room-container .room-component-row .video-controls .tab-content #tabs_playlist .playlist li .title {
+  margin-left: 46px;
+  margin-right: -46px;
+}
+
+.room-container .room-component-row .video-controls .tab-content #tabs_playlist_history .playlist li a .video-thumbnail,
+.room-container .room-component-row .video-controls .tab-content #tabs_playlist .playlist li a .video-thumbnail {
+  height: 33px;
+  position: absolute;
+}
+
+.room-container .room-component-row .video-controls .tab-content #tabs_playlist_history .playlist li,
+.room-container .room-component-row .video-controls .tab-content #tabs_playlist .playlist li {
+  position: relative;
+}
+
+.room-container .room-component-row .video-controls .tab-content #tabs_playlist_history .playlist li .pl-video-info .addedby,
+.room-container .room-component-row .video-controls .tab-content #tabs_playlist .playlist li .pl-video-info .addedby {
+  margin-left: 46px;
+}

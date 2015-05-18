@@ -6,7 +6,8 @@
     "plugins":   true,
     "isUdef":    true,
     "thisUser":  true,
-    "findUserId":true
+    "findUserId":true,
+    "urlParser" :true
   },
   "qunit":       true,
   "jquery":      true,
