@@ -7,6 +7,8 @@
 .room-container .room-component-row .video-controls .tab-content #tabs_playlist_history .playlist li a .video-thumbnail,
 .room-container .room-component-row .video-controls .tab-content #tabs_playlist .playlist li a .video-thumbnail {
   height: 33px;
+  width: 44px;
+  left: 3px;
   position: absolute;
 }
 
